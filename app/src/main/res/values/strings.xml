@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyDownLoad</string>
+    <string name="bt_pause">暂停</string>
+    <string name="bt_start">开始</string>
+</resources>
