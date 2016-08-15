@@ -63,7 +63,7 @@ public class MyDownloadService extends Service {
             {
                 case MSG_INT:
                     FileInfo fileInfo=(FileInfo)msg.obj;
-                    mTask = new DownloadTask(MyDownloadService.this, fileInfo);
+                    mTask = new DownloadTask(MyDownloadService.this, fileInfo,4);
                     mTask.download();
                     break;
             }
